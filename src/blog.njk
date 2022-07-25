@@ -1,0 +1,25 @@
+---
+title: Math 4-2 Blog
+layout: '_base__blog.njk'
+---
+
+<article class="blog__main">
+
+<!-- RECENT POSTS -->
+<h1 class="h1__blog">Recent Posts</h1>
+<section class="snippets__list">
+    {%- for post in collections.post | reverse -%}
+    <div class="snippet__individual">
+        <span class="snippet__title">{{ post.data.title }}</span>
+        <div>
+            <span class="snippet__date"> on {{ post.data.date.toDateString() }} by </span>
+            <span class="snippet__author">{{ post.data.author }}</span>
+        </div>
+        <img class="snippet__image" src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}"/>
+        <span class="snippet__description">{{ post.data.description }}</span>
+        <a class="btn snippet__btn" href="{{ post.url | url }}">Continue Reading</a>
+    </div>
+{%- endfor %}
+</section>
+    
+</article>

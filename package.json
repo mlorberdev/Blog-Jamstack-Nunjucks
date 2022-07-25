@@ -1,0 +1,24 @@
+{
+  "name": "math42tutoring-blog",
+  "version": "1.0.0",
+  "description": "Blog site for math42tutoring",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlorberdev/math42tutoring-blog.git"
+  },
+  "keywords": [],
+  "author": "mlorberdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlorberdev/math42tutoring-blog/issues"
+  },
+  "homepage": "https://github.com/mlorberdev/math42tutoring-blog#homepage",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}

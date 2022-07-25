@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ title }}</title>
+	<link rel="icon" href="./assets/images/favicon.svg" />
+	<link rel="stylesheet" href="./assets/css/fonts.css" />
+	<link rel="stylesheet" href="./assets/css/style.css" />
+	{% include "_seo.njk" %}
+</head>
+
+<body>
+    
+<!-- HEADER / NAVIGATION -->
+<header class="top">
+    <div id="nav__group">
+        <a href="#links">Links</a>
+        <a href="./blog/index.html">Blog&#x2197;</a>
+    </div>
+</header>
+
+{% include "_background.njk" %}
+
+<!-- MAIN -->
+<main>
+{{ content | safe }}
+<!-- FOOTER -->
+<footer>
+{% include "./_footer.njk" %}
+</footer>
+</main>
+
+
+</body>
+</html>
