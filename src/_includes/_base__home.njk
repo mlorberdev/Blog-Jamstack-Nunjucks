@@ -9,6 +9,7 @@
 	<link rel="icon" href="./assets/images/favicon.svg" />
 	<link rel="stylesheet" href="./assets/css/fonts.css" />
 	<link rel="stylesheet" href="./assets/css/style.css" />
+	<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	{% include "_seo.njk" %}
 </head>
 
@@ -33,6 +34,16 @@
 </footer>
 </main>
 
-
+<script>
+if (window.netlifyIdentity) {
+	window.netlifyIdentity.on("init", user => {
+	if (!user) {
+		window.netlifyIdentity.on("login", () => {
+		document.location.href = "/admin/";
+		});
+	}
+	});
+}
+</script>
 </body>
 </html>
