@@ -7,6 +7,8 @@ Jamstack website built with Node, Nunjucks & CSS, Eleventy & Netlify CMS.
 
 ### Main
 ![main](./main.webp)
+### Content
+![content](./content.webp)
 ### Blog
 ![blog](./blog.webp)
 ### Post
