@@ -3,7 +3,7 @@ title: Long Title Sample
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 date: 2022-07-21
 layout: "_base__post.njk"
-author: "Jenny Santiano"
+author: "Author"
 image: "../assets/images/favicon.svg"
 imageAlt: "logo"
 tags: post
