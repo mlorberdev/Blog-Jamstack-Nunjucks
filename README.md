@@ -1,6 +1,7 @@
 # Math 4-2 Website
 
-Jamstack website project built with Node, Nunjucks & CSS, Eleventy & Netlify CMS.
+Jamstack website built with Node, Nunjucks & CSS, Eleventy & Netlify CMS.
+[Homepage](https://math4-2.netlify.app)
 
 ## Screenshots
 
