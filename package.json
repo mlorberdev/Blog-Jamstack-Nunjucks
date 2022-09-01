@@ -1,7 +1,7 @@
 {
-  "name": "math4-2",
+  "name": "jamstack-11ty-netlify",
   "version": "1.0.1",
-  "description": "Website for math4-2tutoring",
+  "description": "Blog site",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlorberdev/math4-2.git"
+    "url": "git+https://github.com/mlorberdev/blog-jamstack-nunjucks.git"
   },
   "keywords": [],
   "author": "mlorberdev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mlorberdev/math4-2/issues"
+    "url": "https://github.com/mlorberdev/blog-jamstack-nunjucks/issues"
   },
-  "homepage": "https://github.com/mlorberdev/math4-2#homepage",
+  "homepage": "https://github.com/mlorberdev/blog-jamstack-nunjucks#homepage",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
   }
